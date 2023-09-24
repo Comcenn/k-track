@@ -7,5 +7,6 @@ export const check = pgTable('checks', {
     condition: text('condition'),
     checkedOn: date('checked_on'),
     notes: text('notes'),
+    currentValue: integer('current_value'),
     assetNumber: integer('asset_number').references(() => asset.assetNumber)
 });
