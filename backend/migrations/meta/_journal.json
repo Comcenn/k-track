@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1695764982154,
+      "tag": "0000_even_mad_thinker",
+      "breakpoints": true
+    }
+  ]
+}

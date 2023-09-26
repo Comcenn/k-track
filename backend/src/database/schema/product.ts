@@ -5,5 +5,5 @@ export const product = pgTable('products', {
   model: varchar('model', { length: 256}),
   dimensions: varchar('dimensions', {length: 256}),
   description: text('descriptions'),
-  manufacturer: varchar('manufacturer', {length: 256})
+  manufacturer: varchar('manufacturer', {length: 256}),
 });
