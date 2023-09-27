@@ -4,7 +4,8 @@ CREATE TABLE IF NOT EXISTS "assets" (
 	"colour" varchar(256),
 	"purchase_price" integer,
 	"date_purchased" date,
-	"product_id" integer
+	"product_id" integer,
+	CONSTRAINT "assets_asset_number_unique" UNIQUE("asset_number")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "checks" (

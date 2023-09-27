@@ -9,6 +9,7 @@
   },
   "scripts": {
     "generate": "drizzle-kit generate:pg",
-    "push-migration": "node ./scripts/push-migrations.mjs"
+    "push-migration": "node ./scripts/push-migrations.mjs",
+    "drop-migration": "drizzle-kit drop"
   }
 }

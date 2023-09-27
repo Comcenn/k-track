@@ -1,7 +1,7 @@
 {
   "version": "5",
   "dialect": "pg",
-  "id": "ba592c9a-0d71-4741-a64b-fe5eaa1df2d5",
+  "id": "43517c9d-759f-4628-a212-a437bbfdd9d7",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "assets": {
@@ -62,7 +62,15 @@
         }
       },
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
+      "uniqueConstraints": {
+        "assets_asset_number_unique": {
+          "name": "assets_asset_number_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "asset_number"
+          ]
+        }
+      }
     },
     "checks": {
       "name": "checks",
